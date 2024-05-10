@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<!--maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="613.0" prefWidth="1088.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button layoutX="259.0" layoutY="220.0" mnemonicParsing="false" text="Button" />
+    </children>-->
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="798.0" prefWidth="1536.0" style="-fx-background-color: #f7fafc; -fx-border-radius: 100;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="457.0" fitWidth="353.0" layoutX="183.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Capture%20web_8-5-2024_133324_.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="457.0" fitWidth="353.0" layoutX="649.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Capture%20web_8-5-2024_133416_.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageview1" fitHeight="457.0" fitWidth="353.0" layoutX="1103.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Capture%20web_8-5-2024_133219_.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="720.0" layoutY="188.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="168.0" style="-fx-background-color: #173dff; -fx-border-radius: 100;" text="Créer un CV" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="583.0" layoutY="31.0" text="Créez votre CV sur notre site" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Lucida Bright Demibold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="528.0" layoutY="93.0" text="Remplissez le formulaire, choisissez un modèle et téléchargez ">
+         <font>
+            <Font name="Lucida Bright" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="669.0" layoutY="116.0" text="votre CV en quelques minutes.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

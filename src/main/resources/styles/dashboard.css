@@ -1,0 +1,12 @@
+.item-container {
+    -fx-background-radius: 8pt;
+    -fx-background-color: #555170;
+}
+
+.fake-btn {
+    -fx-background-radius: 4pt;
+}
+
+.fake-btn:hover {
+    -fx-background-color: #555170;
+}

@@ -1,0 +1,20 @@
+.root {
+    -fx-base: #524F74;
+    -fx-background: #413E5E;
+}
+
+.button {
+    -fx-background-color: #524F74;
+    -fx-border-radius: 4pt;
+}
+
+.combo-box,
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-border-radius: 4pt;
+    -fx-text-fill: #ebebef;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #ebebef;
+}
