@@ -1,83 +1,86 @@
-<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!--<?import javafx.geometry.*?>-->
-<!--<?import javafx.scene.*?>-->
-<!--<?import javafx.scene.control.*?>-->
-<!--<?import javafx.scene.image.*?>-->
-<!--<?import javafx.scene.layout.*?>-->
-<!--<?import javafx.scene.text.*?>-->
-<!--<AnchorPane prefHeight="400.0" prefWidth="600.0"  xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">-->
-<!--   <children>-->
-<!--      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="24.0">-->
-<!--         <children>-->
-<!--            <ImageView fitHeight="150.0" fitWidth="200.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">-->
-<!--               <image>-->
-<!--                  <Image url="@images/logo.png" />-->
-<!--               </image>-->
-<!--            </ImageView>-->
-<!--            <VBox alignment="TOP_CENTER" prefHeight="200.0" style="-fx-background-color: #3B3855; -fx-background-radius: 10px,10px,10px,10px; -fx-pref-height: 0; -fx-max-width: 20em;">-->
-<!--               <VBox.margin>-->
-<!--                  <Insets top="24.0" />-->
-<!--               </VBox.margin>-->
-<!--               <children>-->
-<!--                  <ImageView fitHeight="84.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">-->
-<!--                     <image>-->
-<!--                        <Image url="@../images/person-circle.png" />-->
-<!--                     </image>-->
-<!--                  </ImageView>-->
-<!--                  <Label fx:id="title" text="ui.login.title">-->
-<!--                     <font>-->
-<!--                        <Font size="14.0" />-->
-<!--                     </font>-->
-<!--                  </Label>-->
-<!--                  <TextField fx:id="idField" stylesheets="@../styles/login.css">-->
-<!--                     <VBox.margin>-->
-<!--                        <Insets left="16.0" right="16.0" top="16.0" />-->
-<!--                     </VBox.margin>-->
-<!--                  </TextField>-->
-<!--                  <PasswordField fx:id="passwordField" stylesheets="@../styles/login.css">-->
-<!--                     <VBox.margin>-->
-<!--                        <Insets left="16.0" right="16.0" top="8.0" />-->
-<!--                     </VBox.margin>-->
-<!--                  </PasswordField>-->
-<!--                  <Button fx:id="signInBtn" alignment="CENTER" mnemonicParsing="false" onAction="#handleSignInBtnClick" text="ui.login.button">-->
-<!--                     <VBox.margin>-->
-<!--                        <Insets top="24.0" />-->
-<!--                     </VBox.margin>-->
-<!--                     <cursor>-->
-<!--                        <Cursor fx:constant="HAND" />-->
-<!--                     </cursor>-->
-<!--                  </Button>-->
-<!--               </children>-->
-<!--               <padding>-->
-<!--                  <Insets bottom="16.0" top="12.0" />-->
-<!--               </padding>-->
-<!--            </VBox>-->
-<!--         </children>-->
-<!--      </VBox>-->
-<!--      <VBox fx:id="languageOptions" accessibleRole="COMBO_BOX" alignment="TOP_CENTER" layoutX="532.0" layoutY="16.0" prefHeight="22.0" prefWidth="32.0" spacing="8.0">-->
-<!--         <cursor>-->
-<!--            <Cursor fx:constant="HAND" />-->
-<!--         </cursor>-->
-<!--      </VBox>-->
-<!--      <Label fx:id="idLabel" layoutX="194.0" layoutY="222.0" style="-fx-background-color: #3B3855; -fx-text-fill: #ffffffcc;" text="ui.login.labels.id">-->
-<!--         <font>-->
-<!--            <Font size="10.0" />-->
-<!--         </font>-->
-<!--         <padding>-->
-<!--            <Insets left="2.0" right="2.0" />-->
-<!--         </padding>-->
-<!--      </Label>-->
-<!--      <Label fx:id="passwordLabel" layoutX="194.0" layoutY="257.0" style="-fx-background-color: #3B3855; -fx-text-fill: #ffffffcc;" text="ui.login.labels.passwd">-->
-<!--         <font>-->
-<!--            <Font size="10.0" />-->
-<!--         </font>-->
-<!--         <padding>-->
-<!--            <Insets left="2.0" right="2.0" />-->
-<!--         </padding>-->
-<!--      </Label>-->
-<!--   </children>-->
-<!--   <opaqueInsets>-->
-<!--      <Insets />-->
-<!--   </opaqueInsets>-->
-<!--</AnchorPane>-->
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<!---onAction="#handleSignInBtnClick"-->
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9ff0fc;" stylesheets="@../../../styles/global.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9ff0fc;" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="24.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/logo.png" />
+               </image>
+            </ImageView>
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" style="-fx-background-color: #bdecf2; -fx-background-radius: 10px,10px,10px,10px; -fx-pref-height: 0; -fx-max-width: 20em;">
+               <VBox.margin>
+                  <Insets top="24.0" />
+               </VBox.margin>
+               <children>
+                  <ImageView fitHeight="84.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/person-circle.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="title" text="GenCV Login" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="idField" stylesheets="@../../../styles/login.css">
+                     <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="16.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <PasswordField fx:id="passwordField" stylesheets="@../../../styles/login.css">
+                     <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="8.0" />
+                     </VBox.margin>
+                  </PasswordField>
+                  <Button fx:id="signInBtn" alignment="CENTER" mnemonicParsing="false" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #9ff0fc; -fx-color-label-visible: #ffffff;" text="login" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="24.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="16.0" top="12.0" />
+               </padding>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox fx:id="languageOptions" accessibleRole="COMBO_BOX" alignment="TOP_CENTER" layoutX="532.0" layoutY="16.0" prefHeight="22.0" prefWidth="32.0" spacing="8.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+      <Label fx:id="idLabel" layoutX="194.0" layoutY="222.0" style="-fx-background-color: #bdecf2; -fx-text-fill: #ffffffcc;" text="username">
+         <font>
+            <Font size="10.0" />
+         </font>
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+      </Label>
+      <Label fx:id="passwordLabel" layoutX="194.0" layoutY="257.0" style="-fx-background-color: #bdecf2; -fx-text-fill: #ffffffcc;" text="password">
+         <font>
+            <Font size="10.0" />
+         </font>
+         <padding>
+            <Insets left="2.0" right="2.0" />
+         </padding>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
